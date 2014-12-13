@@ -1,0 +1,26 @@
+[root]
+name = "grphx"
+version = "0.0.1"
+dependencies = [
+ "sdl2 0.0.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sdl2_image 0.0.1-alpha.1 (git+https://github.com/xsleonard/rust-sdl2_image)",
+]
+
+[[package]]
+name = "sdl2"
+version = "0.0.8"
+source = "git+https://github.com/AngryLawyer/rust-sdl2.git#cef90c0a0c444783ee52101b7dd3f824648e96b8"
+
+[[package]]
+name = "sdl2"
+version = "0.0.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "sdl2_image"
+version = "0.0.1-alpha.1"
+source = "git+https://github.com/xsleonard/rust-sdl2_image#d47bcc4790cd28919c2d635c70495ae7bda6ce88"
+dependencies = [
+ "sdl2 0.0.8 (git+https://github.com/AngryLawyer/rust-sdl2.git)",
+]
+

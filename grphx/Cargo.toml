@@ -1,0 +1,13 @@
+[package]
+name = "grphx"
+version = "0.0.1"
+authors = ["Frank Tackitt <franklyn@tackitt.net>"]
+
+[dependencies]
+sdl2 = "0.0.8"
+
+[dependencies.sdl2_image]
+git = "https://github.com/xsleonard/rust-sdl2_image"
+
+[[bin]]
+name = "grphx"

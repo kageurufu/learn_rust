@@ -1,0 +1,9 @@
+[package]
+
+name = "guessing_game"
+version = "0.0.1"
+authors = ["Frank Tackitt <franklyn@tackitt.net>"]
+
+[[bin]]
+
+name = "guessing_game"

@@ -1,0 +1,9 @@
+[package]
+
+name = "loops"
+version = "0.0.1"
+authors = ["Frank Tackitt <franklyn@tackitt.net>"]
+
+[[bin]]
+
+name = "loops"
